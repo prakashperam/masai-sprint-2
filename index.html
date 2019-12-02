@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Week 04</title>
+
+</head>
+
+<body>
+    <!--     <h1>Track Your Expenses</h1> -->
+    <section id="mainSection">
+        <div id="income" class="parts">
+            <h3>Income</h3>
+
+            <div class="salary form">
+                <label for="salary">Salary :</label>
+                <input type="number" min="1" placeholder="Enter Your Salary" name="salary" id="salary">
+            </div>
+            <div class="salary form">
+                <label for="incomeThroughOtherSources">Income Through Other Sources :</label>
+                <input type="number" min="1" placeholder="Income Through Other Sources" name="salary1" id="otherSources">
+            </div>
+            <div class="button form">
+                <button onclick="details()">View</button>
+            </div>
+
+            <div>
+                <label for="Total">Total Income :<span id="view"></span></label>
+            </div>
+
+        </div>
+        <div id="expenses" class="parts">
+            <h3>Expenses</h3>
+            <div class="expenses form">
+                <label for="food">Food :</label>
+                <input type="number" min="1" placeholder="Food" name="food" id="food">
+            </div>
+            <div class="expenses form">
+                <label for="rent">Rent :</label>
+                <input type="number" min="1" placeholder="Rent" name="rent" id="rent">
+            </div>
+            <div class="expenses form">
+                <label for="shopping">Shopping :</label>
+                <input type="number" min="1" placeholder="Shopping" name="food" id="shopping">
+            </div>
+            <div class="expenses form">
+                <label for="medicine">Medicines :</label>
+                <input type="number" min="1" placeholder="Medicines" name="medicines" id="medicine">
+            </div>
+            <div class="expenses form">
+                <label for="other">Other Expenses :</label>
+                <input type="number" min="1" placeholder="Other Expenses" name="other" id="other">
+            </div>
+            <div class="button form">
+                <button onclick="expenses()">View</button>
+            </div>
+            <div>
+                <label for="Total">Total Income :<span id="views"></span></label>
+            </div>
+        </div>
+        <div id="balance" class="parts">
+            <h3>Balance</h3>
+            <output type="number">Balance:<span id="balance"></span></output>
+        </div>
+    </section>
+</body>
+
+</html>

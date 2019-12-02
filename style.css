@@ -1,0 +1,18 @@
+#detailsPanel {
+    width: 50%;
+    float: left;
+    text-align: justify;
+    border:solid black;
+    color: blue;
+    border-block-color: blue;
+  }
+  
+  #reportPanel {
+    width: 50%;
+    float: left;
+    text-align: justify;
+    border:solid black;
+    color: blue;
+    border-block-color: blue;
+    
+  }
